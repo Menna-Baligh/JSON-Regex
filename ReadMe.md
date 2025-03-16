@@ -1,4 +1,4 @@
-# Contact Manager and Regex Practice Repository
+# JSON and Regex Practice Repository
 
 This repository contains two projects designed to practice and demonstrate the concepts of **JSON** (JavaScript Object Notation) and **RegEx** (Regular Expressions) in PHP. These projects focus on handling data, validating inputs, and working with file storage in a practical way.
 
