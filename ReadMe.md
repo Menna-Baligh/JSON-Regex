@@ -55,3 +55,28 @@ The **Contact Manager** is a simple PHP web application that allows users to man
 - **`contacts.json`**: The JSON file where contacts are stored:
   - Holds an array of contact objects with fields `name`, `email`, and `phone`.
   - Updated whenever a new contact is added via `add.php`.
+
+---
+## Project 2: User Data Validator
+
+### Overview
+The **User Data Validator** is a PHP web application that allows users to submit their personal information (name, email, phone number, and password) through a form. It uses regex to validate the input fields according to specific rules and stores the validated user data in a JSON file for persistence.
+
+### Features
+1. **User Input Form**:
+   - Users can input their name, email, phone number, and password via a web form.
+   - All fields are required, and validation is performed before saving.
+
+2. **Data Validation with Regex**
+
+3. **Store Validated Users in JSON**
+
+### Files
+- **`index.php`**: The main page of the application. It includes:
+  - A Form That User Enter Data In It.
+- **`handle.php`**: Handles the submission of the add contact form:
+  - Validates input data (password, email, phone) using regex.
+  - Saves validated contacts to `users.json` in JSON format.
+  - Sets session messages for success or errors.
+- **`users.json`**: 
+  - Store The Data Of Users In JSON Format.
